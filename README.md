@@ -21,11 +21,17 @@ A mensagem "Aprovado com Distinção", se a média for igual a dez.
 
 2 - O cardápio de uma casa de lanches é dado pela tabela abaixo:
 Código Produto Preço Unitário (R$)
+
 100 Cachorro quente R$ 12,70
+
 101 Bauru Simples R$ 4,00
+
 102 Bauru com ovo R$ 4,60
+
 103 Hambúrguer R$ 15,00
+
 104 Cheeseburger R$ 13,50
+
 05 Refrigerante R$ 4,50
 
 ---------------------------------------
