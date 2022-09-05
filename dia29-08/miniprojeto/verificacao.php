@@ -1,17 +1,42 @@
 <?php
-
+session_start();
+$user = $_SESSION['usuario'];
 $codigo = $_GET['codigop'];
-$codigo1 = array('100','101','102', '103', '104', '05');
 
+$pedidos[] = explode(',', $codigo);
 
-if (in_array($codigo, $codigo1)) 
-    if($codigo == 101){
-        // echo 'Bauru Simples R$ 4,00';
-return "Bauro 4";
-    } else {
-    echo 'Valor não existente.';
+// print_r($pedidos);
+$resultado = 0;
+foreach ($pedidos as $value) {
+  foreach ($value as $value2) {
+    // echo $value2."<br>";
+
+    $resultado = $resultado + soma($value2);
   }
+}
+echo "Olá $user, seu pedido deu $resultado";
 
-?>
 
-<?php  ?>
+function soma($codigo)
+{
+  switch ($codigo) {
+    case '100':
+      return 12.70;
+    case '101':
+      return 4.00;
+    case '102':
+      return 4.60;
+    case '103':
+      return 15.00;
+    case '104':
+      return 13.50;
+    case '05':
+      return 4.50;
+      break;
+    default:
+     echo "Pedido inexistente.";
+      die();
+      break;
+  
+  }
+}
