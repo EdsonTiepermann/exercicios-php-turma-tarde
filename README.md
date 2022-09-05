@@ -45,21 +45,17 @@ Código Produto Preço Unitário (R$)
 4 - Crie um formulário onde o usuário informa seu nome, seu e-mail, sua data de nascimento e escolha em um select o tipo de pagamento (pix, cartão de crédito ou boleto). Ao clicar em em botão de submit, exiba todos os dados na tela.
 
 ---------------------------------------
-
 *** Mini projeto ***
 
-colocar o header e footer do HTML em arquivos separados, e fazer a chamada do arquivo para incluir.
+colocar o header e footer do HTML em arquivos separados, e fazer a chamada do arquivo para incluir (include/require).
 
-1 - crie um tela de login. usuário e senha, ao clicar no botão LOGIN precisa validar os campos. a validação de campos deverá ser feito em um arquivo separado.
+1 - crie uma tela de login. usuário e senha, ao clicar no botão LOGIN precisa validar os campos. a validação de campos deverá ser feito em um arquivo separado.
 se o login for bem sucedido, chamar outra página, se não for bem sucedido, mostrar msg de erro na tela. (login para verificação, crie seu nome e uma senha qualquer)
 
 2 - TELA ao fazer o login.
 - deverá fazer uma tela onde mostrará as opções de cardápio dos lanches, um input para inserir o código do lanche e 2 botões, primeiro INSERIR, segundo CONCLUIR. o botão de inserir, deverá verificar se o código existe (em um arquivo php separado) e caso existir inserir o código do lanche em um array, se não existir, mostrar erro na telá se o código não existe. poderá inserir quantos códigos quiser.
 o botão de concluir,  e a soma da compra. Deverá abrir uma terceira tela a ser feita.
 
-3 - TELA pedido 
-nessa tela deverá aparecer os itens pedido pelo cliente, os valores de cada item e o total do pedido.
+3 - TELA pedido deve aparecer o total do pedido com uma mensagem com o nome do usuário logado e o valor total da compra
 
-
-
-
+4 - na Tela pedido deverá aparecer os itens pedido pelo cliente (criar uma função para isso).
