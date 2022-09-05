@@ -14,7 +14,20 @@ foreach ($pedidos as $value) {
     $resultado = $resultado + soma($value2);
   }
 }
+
+echo "Os pedidos foram:";
+
+
+
+
+
+
+
+
+
 echo "Olá $user, seu pedido deu $resultado";
+
+
 
 
 function soma($codigo)
