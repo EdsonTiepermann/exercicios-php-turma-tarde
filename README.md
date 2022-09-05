@@ -58,4 +58,4 @@ o botão de concluir,  e a soma da compra. Deverá abrir uma terceira tela a ser
 
 3 - TELA pedido deve aparecer o total do pedido com uma mensagem com o nome do usuário logado e o valor total da compra
 
-4 - na Tela pedido deverá aparecer os itens pedido pelo cliente (criar uma função para isso).
+4 - na Tela pedido deverá aparecer os itens pedidos pelo cliente (criar uma função para isso).
