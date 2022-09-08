@@ -58,3 +58,21 @@ deverá fazer uma tela onde mostrará as opções de cardápio, um input para in
 3 - TELA pedido deve aparecer o total do pedido com uma mensagem com o nome do usuário logado e o valor total da compra
 
 4 - na Tela pedido deverá aparecer os itens pedidos pelo cliente (criar uma função para isso).
+
+--------------------------------------
+Exercícios
+01.01
+tela principal deverá mostrar as pizzas fornecidas e valores. 5 pizzas/valores diferentes.
+na próxima tela deverá aparecer a quantidade de cada item, valor unitário, valor total dos itens (caso tenha sido escolhido mais de 1) e valor total da compra.
+nessa tela deverá ter a opção "rachar a conta"... caso escolham rachar a conta, deverá informa em quantos o valor deverá ser dividido.
+
+01.02 
+adicionando ao exercício anterior, deverá ter opção de fidelização do cliente, gerando pontos. A cada 50 reais, gera 1 ponto.
+No final da compra, deverá aparecer o saldo gerado na compra atual.
+
+02 - Retirada de dinheiro caixa eletrônico
+Tela principal terá que ter as opções consulta de saldo e retirada de valor.
+A tela de consulta, irá mostrar o saldo atual do cliente. (5k);
+A tela de retirada deve ter a opção do cleinte colocar o valor que ele queira tirar. Na próxima tela, primeiramente precisa verificar se o cliente tem saldo suficiente para fazer a retirado do valor indicado. Caso tenha, deverá mostrar as notas que o caixa eletrônico tem disponível (um array, que pode variar dentre as notas disponíveis);
+Próximo passo, o sistema deve mostrar a quantidade de notas que o cliente irá receber e o valor que ele informou.
+No final, o sistema deverá mostrar o saldo atual que existe na conta;
