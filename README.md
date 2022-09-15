@@ -62,9 +62,10 @@ deverá fazer uma tela onde mostrará as opções de cardápio, um input para in
 --------------------------------------
 Exercícios
 01.01
-tela principal deverá mostrar as pizzas fornecidas e valores. 5 pizzas/valores diferentes.
-na próxima tela deverá aparecer a quantidade de cada item, valor unitário, valor total dos itens (caso tenha sido escolhido mais de 1) e valor total da compra.
-nessa tela deverá ter a opção "rachar a conta"... caso escolham rachar a conta, deverá informa em quantos o valor deverá ser dividido.
+
+Tela principal deverá mostrar as pizzas disponíveis para venda e valores. 5 pizzas/valores diferentes. 
+na próxima tela deverá aparecer a quantidade do item vendido, valor unitário, valor total (caso tenha sido escolhido mais de 1), um sabor por venda.
+nessa tela deverá ter a opção "rachar a conta"... caso escolham rachar a conta, deverá informar em quantas vezes o valor deverá ser dividido.
 
 01.02 
 adicionando ao exercício anterior, deverá ter opção de fidelização do cliente, gerando pontos. A cada 50 reais, gera 1 ponto.
