@@ -77,3 +77,5 @@ A tela de consulta, irá mostrar o saldo atual do cliente. (5k);
 A tela de retirada deve ter a opção do cleinte colocar o valor que ele queira tirar. Na próxima tela, primeiramente precisa verificar se o cliente tem saldo suficiente para fazer a retirado do valor indicado. Caso tenha, deverá mostrar as notas que o caixa eletrônico tem disponível (um array, que pode variar dentre as notas disponíveis);
 Próximo passo, o sistema deve mostrar a quantidade de notas que o cliente irá receber e o valor que ele informou.
 No final, o sistema deverá mostrar o saldo atual que existe na conta;
+
+03 - Uma biblioteca deseja fazer empréstimos de livro via sistema. Tipo de usuário (professor ou aluno); Mostrar um recibo do livro emprestado, data de empréstimo, data de devolução e tipo de usuário. Considerar que o professor tem 10 dias para devolver o livro e o aluno somente 3 dias
