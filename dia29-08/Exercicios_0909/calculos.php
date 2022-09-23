@@ -3,6 +3,10 @@
 
 $codigo = $_GET['codigo'];
 
+$quantidade = $_GET['quantidade'];
+
+
+
 $pedidos[] = explode(',', $codigo);
 $soma = 0;
 $resultado = 0;
@@ -16,29 +20,27 @@ foreach ($pedidos as $value) {
         print_r($value2);
         echo "<br>";
 
-        $resultado = $resultado + soma($value2);
+        $resultado = soma($value2) * $quantidade;
     }
 }
 
-echo "pedido repetido " . $soma . "<br>";
+echo " " . $soma . "<br>";
 
 echo "Seu pedido deu $resultado";
 
 function soma($codigo)
 {
     switch ($codigo) {
-        case '101':
-            return 55.90;
-        case '102':
+        case 'FCC':
+            return 55.90 ;
+        case 'C':
             return 51.50;
-        case '103':
+        case 'Quatro Queijos':
             return 49.50;
-        case '104':
+        case 'CB':
             return 56.90;
-        case '105':
+        case 'C':
             return 54.60;
-        case '106':
-            return 59.99;
             break;
         default:
             echo "Pedido inexistente.";
@@ -51,25 +53,13 @@ function soma($codigo)
 <?php
 echo "Dividir conta em:"
 ?>
+
 <form action="contafinal.php" method="$_GET">
     <select name="opcoes">
-        <option value="pix">1 pessoa</option>
-        <option value="cartao">2 pessoas</option>
-        <option value="boleto">3 pessoas</option>
+        <option value="1x">1 pessoa</option>
+        <option value="2x">2 pessoas</option>
+        <option value="3x">3 pessoas</option>
     </select>
+    <input type="text" value="<?php echo $resultado; ?>" name="teste">
     <button type="submit">Enviar</button>
 </form>
-
-<?php
-// switch ($opcoes) {
-//     case 'pix': {
-//        echo $resultado / 1;
-//     }
-    
-//         break;
-    
-//     default:
-//     "erro";
-//         break;
-// }
-?>
