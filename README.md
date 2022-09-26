@@ -79,3 +79,5 @@ Próximo passo, o sistema deve mostrar a quantidade de notas que o cliente irá 
 No final, o sistema deverá mostrar o saldo atual que existe na conta;
 
 03 - Uma biblioteca deseja fazer empréstimos de livro via sistema. Tipo de usuário (professor ou aluno); Mostrar um recibo do livro emprestado, data de empréstimo, data de devolução e tipo de usuário. Considerar que o professor tem 10 dias para devolver o livro e o aluno somente 3 dias
+
+04 - Criar uma função que receba uma data em fotmato internacional, e mostre na tela em formato Brasileiro a data e o dia da semana
