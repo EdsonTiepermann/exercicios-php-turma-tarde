@@ -81,3 +81,13 @@ No final, o sistema deverá mostrar o saldo atual que existe na conta;
 03 - Uma biblioteca deseja fazer empréstimos de livro via sistema. Tipo de usuário (professor ou aluno); Mostrar um recibo do livro emprestado, data de empréstimo, data de devolução e tipo de usuário. Considerar que o professor tem 10 dias para devolver o livro e o aluno somente 3 dias
 
 04 - Criar uma função que receba uma data em formato internacional, e mostre na tela em formato Brasileiro a data e o dia da semana
+
+05 - Crie um script que gere o núumero de dias que já se passaram desde que o ano
+começou.
+
+06 - TELA - fazer uma tela principal, onde deve ter entrada de dados do valor do boleto e data de vencimento.
+Backend - verificar se o boleto está sendo pago no dia (o pagamento será sempre a data de hoje). Se estiver, mostrar na tela o valor original.
+Se estiver em atraso, verificar a quantidade de dias em atraso, aplicar juros de 10% do valor total MAIS 1,50 por dia de atraso.
+Se estiver pagando pelo menos 7 dias adiantado, aplicar um desconto de 10% do valor, e a quantidade de dias que está pagando adiantado.
+
+
