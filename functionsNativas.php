@@ -398,4 +398,18 @@ echo date('d-m-Y', $milesegundos);
 
 echo '<br>';
 echo '<br>';
+
+//-----------------------------------------------------------------------------------
+echo "<br><br> Diferença entre datas";
+echo '<br>';
+
+$dataInicioAno = "2022-01-01";
+$dataHj = date('Y-m-d');
+
+$difDatas = abs((strtotime($dataInicioAno) - strtotime($dataHj)));
+
+echo $dias = floor($difDatas / (60 * 60 * 24));
+
 ?>
+
+
